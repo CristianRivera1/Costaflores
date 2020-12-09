@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.servlet.http.HttpSession;
@@ -25,10 +26,10 @@ public class Cliente {
 	private String domicilio;
 	private String telefono;
 	private String clave;
-	
-	
+
+
 	public Cliente() {
-		
+
 	}
 
 
@@ -90,6 +91,6 @@ public class Cliente {
 	public void setClave(String clave) {
 		this.clave = clave;
 	}
-	
+
 
 }
